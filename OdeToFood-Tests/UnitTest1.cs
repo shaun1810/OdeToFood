@@ -1,9 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OdeToFood;
 
 namespace OdeToFood_Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class OdeToFoodTest
     {
         [TestMethod]
         public void TestMethod1()
