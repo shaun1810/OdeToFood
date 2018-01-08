@@ -12,9 +12,9 @@ namespace OdeToFood
     {
         private IConfiguration _configuration;
 
-        Greeter(IConfiguration configFile) 
+        public Greeter(IConfiguration configFile) 
         {
-            _configuration = configFile;
+             _configuration = configFile;
         }
 
         string IGreeter.GetMessageOfTheDay()
@@ -23,5 +23,4 @@ namespace OdeToFood
             return messageOfTheDay;
         }
     }
-
 }
