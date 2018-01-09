@@ -28,7 +28,8 @@ namespace OdeToFood
                 app.UseDeveloperExceptionPage();
             }
             
-            app.UseFileServer();
+            app.UseStaticFiles();
+            app.UseMvcWithDefaultRoute();
 
             app.Run(async (context) =>
             {
